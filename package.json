@@ -1,0 +1,12 @@
+{
+  "name": "ns-covid-vax-watch",
+  "version": "0.0.1",
+  "description": "Use to find out about vaccine appointments as soon as they come out as possible.",
+  "main": "server.js",
+  "author": "nathanmyles",
+  "dependencies": {
+    "axios": "0.21.1",
+    "node-schedule": "latest",
+    "nodemailer": "latest"
+  }
+}

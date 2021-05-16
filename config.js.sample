@@ -1,0 +1,17 @@
+var config = {
+
+  targetAgeToEmails: {
+    35: ['email@example.com'],
+    30: []
+  },
+
+  email: {
+    // Just the username of the gmail address Eg. `myAccount` from `myAccount@gmail.com`
+    gmailUser: '',
+
+    // The password of the gmail address (or empty if oauth is used)
+    gmailPassword: '',
+  },
+};
+
+module.exports = config;
