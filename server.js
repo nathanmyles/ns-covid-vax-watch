@@ -64,7 +64,12 @@ function notifyEmails(emails, age) {
       to: `${email}`, // list of receivers
       subject: `Vaccine is available for people >${age} years old!`, // Subject line
       text: 'GO GO GO GO!!!', // plaintext body
-      html: '<a href="https://novascotia.flow.canimmunize.ca/en/9874123-19-7418965">GO GO GO GO GO!</a>' // html body
+      html: (
+          '<div>' +
+          '<p>GO GO GO GO!</p>' +
+          '<p>Book an appointment here: <a href="https://novascotia.flow.canimmunize.ca/en/9874123-19-7418965">https://novascotia.flow.canimmunize.ca/en/9874123-19-7418965</a></p>' +
+          '</div>'    
+      ) // html body
     };
 
     // send mail with defined transport object
